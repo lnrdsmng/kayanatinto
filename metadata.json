@@ -1,0 +1,6 @@
+{
+  "name": "KayaNatinTo - Community Marketplace",
+  "description": "A community marketplace platform empowering Filipino creators, artisans, elders, and service providers of all ages to showcase products, talents, and skills without needing popularity or follower counts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
