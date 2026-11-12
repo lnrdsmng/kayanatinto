@@ -143,7 +143,7 @@ export const Header: React.FC<HeaderProps> = ({
               {currentUser ? (
                 <div className="flex items-center gap-3">
                   <img
-                    src={currentUser.avatarUrl || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
+                    src={currentUser.avatarUrl || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
                     alt={currentUser.fullName}
                     className="w-12 h-12 rounded-full border-2 border-amber-400 object-cover"
                   />

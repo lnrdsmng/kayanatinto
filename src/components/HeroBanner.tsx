@@ -78,7 +78,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
       {/* Hero Visual Image with Overlapping Floating Badges */}
       <div className="mt-8 relative max-w-2xl mx-auto rounded-3xl overflow-hidden shadow-xl border border-purple-100">
         <img
-          src="/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png"
+          src="./assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png"
           alt="Local Filipino vendors, artisans, and community members"
           className="w-full h-64 sm:h-80 md:h-96 object-cover"
         />
@@ -86,7 +86,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
         {/* Floating Badge 1: Top Left */}
         <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md rounded-2xl p-2.5 sm:p-3 shadow-xl border border-white/70 flex items-center gap-2.5 text-left">
           <img
-            src="/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png"
+            src="./assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png"
             alt="Vendor thumbnail"
             className="w-10 h-10 rounded-xl object-cover"
           />

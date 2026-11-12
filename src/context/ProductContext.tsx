@@ -25,7 +25,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     sellerId: 'user-nanay-lita',
     sellerName: 'Lutong Bahay ni Aling Rosa',
     sellerUsername: 'nanaylita',
-    sellerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    sellerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     sellerIsSenior: true,
     sellerAge: 68,
     sellerLocation: {
@@ -41,7 +41,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     stock: 25,
     condition: 'made-to-order',
     images: [
-      '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     ],
     deliveryOptions: {
       allowPickup: true,
@@ -63,7 +63,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     sellerId: 'user-kuya-jun',
     sellerName: 'Kuya Jun Wood & Clay Craft',
     sellerUsername: 'kuyajun',
-    sellerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    sellerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     sellerIsSenior: false,
     sellerAge: 52,
     sellerLocation: {
@@ -79,7 +79,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     stock: 14,
     condition: 'handcrafted',
     images: [
-      '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     ],
     deliveryOptions: {
       allowPickup: true,
@@ -101,7 +101,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     sellerId: 'user-nanay-elena',
     sellerName: 'Nanay Elena Baked Goodies',
     sellerUsername: 'nanayelena',
-    sellerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    sellerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     sellerIsSenior: true,
     sellerAge: 61,
     sellerLocation: {
@@ -117,7 +117,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     stock: 30,
     condition: 'made-to-order',
     images: [
-      '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     ],
     deliveryOptions: {
       allowPickup: true,
@@ -139,7 +139,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     sellerId: 'user-lola-mercy',
     sellerName: 'Lola Mercy Pananahi & Modista',
     sellerUsername: 'lolamercy',
-    sellerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    sellerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     sellerIsSenior: true,
     sellerAge: 64,
     sellerLocation: {
@@ -155,7 +155,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     stock: 5,
     condition: 'handcrafted',
     images: [
-      '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     ],
     deliveryOptions: {
       allowPickup: true,
@@ -193,7 +193,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     stock: 45,
     condition: 'handcrafted',
     images: [
-      '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     ],
     deliveryOptions: {
       allowPickup: true,
@@ -215,7 +215,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     sellerId: 'user-nanay-lita',
     sellerName: 'Lutong Bahay ni Aling Rosa',
     sellerUsername: 'nanaylita',
-    sellerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    sellerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     sellerIsSenior: true,
     sellerAge: 68,
     sellerLocation: {
@@ -231,7 +231,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     stock: 18,
     condition: 'handcrafted',
     images: [
-      '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     ],
     deliveryOptions: {
       allowPickup: true,
@@ -253,7 +253,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     sellerId: 'user-kuya-jayson',
     sellerName: 'Jayson Bautista Hardin & Jam',
     sellerUsername: 'kuyajayson',
-    sellerAvatarUrl: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    sellerAvatarUrl: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     sellerIsSenior: false,
     sellerAge: 22,
     sellerLocation: {
@@ -269,7 +269,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     stock: 12,
     condition: 'handcrafted',
     images: [
-      '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     ],
     deliveryOptions: {
       allowPickup: true,
@@ -291,7 +291,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     sellerId: 'user-kuya-jun',
     sellerName: 'Kuya Jun Wood & Clay Craft',
     sellerUsername: 'kuyajun',
-    sellerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    sellerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     sellerIsSenior: false,
     sellerAge: 52,
     sellerLocation: {
@@ -307,7 +307,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     stock: 8,
     condition: 'brand-new',
     images: [
-      '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     ],
     deliveryOptions: {
       allowPickup: true,

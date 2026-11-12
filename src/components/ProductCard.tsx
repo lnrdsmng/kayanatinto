@@ -42,7 +42,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   const catStyle = categoryStyles[product.category] || categoryStyles.other;
 
   // Use primary image or fallback crop
-  const imageSource = product.images[0] || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
+  const imageSource = product.images[0] || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
 
   const isPerishable = product.deliveryOptions.isPerishableFood;
   const isOutOfStock = product.stock <= 0 || !product.isAvailable;
@@ -72,7 +72,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
               }`}
               onError={(e) => {
                 // Graceful fallback
-                (e.target as HTMLImageElement).src = '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
+                (e.target as HTMLImageElement).src = './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
               }}
             />
           )}

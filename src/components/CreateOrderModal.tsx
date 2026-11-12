@@ -200,7 +200,7 @@ export const CreateOrderModal: React.FC<CreateOrderModalProps> = ({
           {/* Product Summary Card */}
           <div className="flex items-start gap-3 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
             <img
-              src={product.images[0] || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
+              src={product.images[0] || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
               alt={product.title}
               className="w-16 h-16 sm:w-20 sm:h-20 object-cover rounded-lg border border-slate-200 shrink-0"
             />

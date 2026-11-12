@@ -31,7 +31,7 @@ const PRESET_TALENT_MEDIA = [
     label: 'Acoustic Harana (Kuya Jayson Video)',
     type: 'video' as MediaType,
     url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-    thumbnail: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    thumbnail: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     duration: '2:10',
     category: 'music' as TalentCategory,
     caption: 'Nagbahagi ng acoustic guitar version ng paboritong OPM!',
@@ -40,7 +40,7 @@ const PRESET_TALENT_MEDIA = [
     label: 'Tradisyunal na Pagluluto (Nanay Lita Video)',
     type: 'video' as MediaType,
     url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-    thumbnail: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    thumbnail: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     duration: '1:45',
     category: 'cooking-baking' as TalentCategory,
     caption: 'Sikreto sa masarap at malinis na handaang Pinoy.',
@@ -48,7 +48,7 @@ const PRESET_TALENT_MEDIA = [
   {
     label: 'Pananahi at Burda (Lola Mercy Photo)',
     type: 'photo' as MediaType,
-    url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     category: 'handicrafts-diy' as TalentCategory,
     caption: 'Tradisyunal na filipiniana at barong repair.',
   },
@@ -149,7 +149,7 @@ export const CreateTalentPostModal: React.FC<CreateTalentPostModalProps> = ({
       setPreviewDataUrl(result);
       setMediaUrl(result);
       if (file.type.startsWith('video/')) {
-        setVideoThumbnailUrl('/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png');
+        setVideoThumbnailUrl('./assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png');
       }
     };
     reader.readAsDataURL(file);
@@ -200,13 +200,13 @@ export const CreateTalentPostModal: React.FC<CreateTalentPostModalProps> = ({
         .filter((t) => t.length > 0)
         .map((t) => (t.startsWith('#') ? t : `#${t}`));
 
-      const finalMedia = mediaUrl || previewDataUrl || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
+      const finalMedia = mediaUrl || previewDataUrl || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
 
       const created = createPost({
         creatorId: currentUser.id,
         creatorName: currentUser.fullName,
         creatorUsername: currentUser.username,
-        creatorAvatarUrl: currentUser.avatarUrl || '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+        creatorAvatarUrl: currentUser.avatarUrl || './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
         creatorIsSenior: !!currentUser.isSenior,
         creatorAge: currentUser.age || 25,
         location: {

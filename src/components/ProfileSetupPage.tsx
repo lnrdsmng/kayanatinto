@@ -25,19 +25,19 @@ const AVATAR_PRESETS = [
   {
     id: 'nanay-cook',
     label: 'Nanay Cook',
-    url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     role: 'Home Cook & Baker',
   },
   {
     id: 'kuya-music',
     label: 'Youth Musician',
-    url: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    url: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     role: 'Musician & Artist',
   },
   {
     id: 'lola-sew',
     label: 'Elder Artisan',
-    url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     role: 'Master Seamstress',
   },
 ];

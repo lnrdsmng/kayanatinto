@@ -480,7 +480,7 @@ export const PublicProfileModal: React.FC<PublicProfileModalProps> = ({
                         >
                           <div className="flex items-center gap-2.5">
                             <img
-                              src={p.images[0] || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
+                              src={p.images[0] || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
                               alt={p.title}
                               className="w-10 h-10 rounded-lg object-cover"
                             />

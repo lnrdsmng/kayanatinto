@@ -130,7 +130,7 @@ export const SAMPLE_LISTINGS: ListingItem[] = [
     rating: 4.9,
     reviewsCount: 328,
     imageCrop: {
-      src: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      src: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       x: 915,
       y: 50,
       w: 290,
@@ -156,7 +156,7 @@ export const SAMPLE_LISTINGS: ListingItem[] = [
     rating: 4.9,
     reviewsCount: 95,
     imageCrop: {
-      src: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      src: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       x: 615,
       y: 295,
       w: 138,
@@ -181,7 +181,7 @@ export const SAMPLE_LISTINGS: ListingItem[] = [
     rating: 4.8,
     reviewsCount: 120,
     imageCrop: {
-      src: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      src: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       x: 760,
       y: 115,
       w: 138,
@@ -207,7 +207,7 @@ export const SAMPLE_LISTINGS: ListingItem[] = [
     rating: 5.0,
     reviewsCount: 76,
     imageCrop: {
-      src: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      src: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
       x: 835,
       y: 575,
       w: 140,
@@ -232,7 +232,7 @@ export const SAMPLE_LISTINGS: ListingItem[] = [
     rating: 5.0,
     reviewsCount: 76,
     imageCrop: {
-      src: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      src: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       x: 760,
       y: 295,
       w: 138,
@@ -257,7 +257,7 @@ export const SAMPLE_LISTINGS: ListingItem[] = [
     rating: 4.9,
     reviewsCount: 142,
     imageCrop: {
-      src: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      src: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       x: 312,
       y: 605,
       w: 288,
@@ -290,14 +290,14 @@ export const PEOPLE_OF_KAYANATINTO: CreatorPerson[] = [
       likes: '12.8K',
     },
     avatarCrop: {
-      src: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      src: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
       x: 880,
       y: 55,
       w: 140,
       h: 140,
     },
     cardImageCrop: {
-      src: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      src: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
       x: 410,
       y: 40,
       w: 380,
@@ -323,14 +323,14 @@ export const PEOPLE_OF_KAYANATINTO: CreatorPerson[] = [
       likes: '9.4K',
     },
     avatarCrop: {
-      src: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      src: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
       x: 420,
       y: 470,
       w: 125,
       h: 155,
     },
     cardImageCrop: {
-      src: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      src: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
       x: 420,
       y: 470,
       w: 125,
@@ -356,14 +356,14 @@ export const PEOPLE_OF_KAYANATINTO: CreatorPerson[] = [
       likes: '14.2K',
     },
     avatarCrop: {
-      src: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      src: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       x: 320,
       y: 620,
       w: 260,
       h: 260,
     },
     cardImageCrop: {
-      src: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      src: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       x: 312,
       y: 605,
       w: 288,
@@ -390,14 +390,14 @@ export const PEOPLE_OF_KAYANATINTO: CreatorPerson[] = [
       likes: '8.1K',
     },
     avatarCrop: {
-      src: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      src: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
       x: 550,
       y: 470,
       w: 125,
       h: 155,
     },
     cardImageCrop: {
-      src: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      src: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
       x: 550,
       y: 470,
       w: 125,

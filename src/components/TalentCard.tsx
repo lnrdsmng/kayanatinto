@@ -119,7 +119,7 @@ export const TalentCard: React.FC<TalentCardProps> = ({
         >
           <div className="relative w-10 h-10 rounded-full overflow-hidden bg-purple-100 border border-purple-200 shrink-0">
             <img
-              src={post.creatorAvatarUrl || '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png'}
+              src={post.creatorAvatarUrl || './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png'}
               alt={post.creatorName}
               className="w-full h-full object-cover"
               loading="lazy"

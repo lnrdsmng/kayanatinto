@@ -280,7 +280,7 @@ export const TalentDetailsModal: React.FC<TalentDetailsModalProps> = ({
               className="flex items-center gap-3 cursor-pointer hover:opacity-90 transition-opacity min-w-0"
             >
               <img
-                src={post.creatorAvatarUrl || '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png'}
+                src={post.creatorAvatarUrl || './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png'}
                 alt={post.creatorName}
                 className="w-11 h-11 rounded-full object-cover border-2 border-purple-200 shrink-0"
               />
@@ -430,7 +430,7 @@ export const TalentDetailsModal: React.FC<TalentDetailsModalProps> = ({
                         <div className="p-3 rounded-2xl bg-slate-50 border border-slate-100 flex items-start justify-between gap-2 text-xs">
                           <div className="flex items-start gap-2.5 flex-1 min-w-0">
                             <img
-                              src={comm.authorAvatarUrl || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
+                              src={comm.authorAvatarUrl || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
                               alt={comm.authorName}
                               className="w-7 h-7 rounded-full object-cover border border-purple-200 shrink-0 mt-0.5"
                             />
@@ -570,7 +570,7 @@ export const TalentDetailsModal: React.FC<TalentDetailsModalProps> = ({
                                 >
                                   <div className="flex items-start gap-2 flex-1 min-w-0">
                                     <img
-                                      src={reply.authorAvatarUrl || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
+                                      src={reply.authorAvatarUrl || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
                                       alt={reply.authorName}
                                       className="w-5 h-5 rounded-full object-cover shrink-0 mt-0.5"
                                     />

@@ -97,7 +97,7 @@ export const INITIAL_ORDERS: ProductOrder[] = [
     customerId: 'user-maria-santos',
     customerName: 'Maria Santos',
     customerUsername: 'mariasantos',
-    customerAvatarUrl: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    customerAvatarUrl: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     customerIsSenior: false,
     customerPhone: '0917-555-0192',
     customerEmail: 'maria.santos@kayanatin.ph',
@@ -105,12 +105,12 @@ export const INITIAL_ORDERS: ProductOrder[] = [
     sellerId: 'user-nanay-lita',
     sellerName: 'Lutong Bahay ni Aling Rosa',
     sellerUsername: 'nanaylita',
-    sellerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    sellerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     sellerIsSenior: true,
 
     productId: 'prod-lumpia-shanghai',
     productTitle: 'Homemade Lumpia Shanghai (Crispy Golden)',
-    productImage: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    productImage: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     productCategory: 'food',
 
     unitPrice: 100,
@@ -170,7 +170,7 @@ export const INITIAL_ORDERS: ProductOrder[] = [
     customerId: 'user-maria-santos',
     customerName: 'Maria Santos',
     customerUsername: 'mariasantos',
-    customerAvatarUrl: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    customerAvatarUrl: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     customerIsSenior: false,
     customerPhone: '0917-555-0192',
 
@@ -255,7 +255,7 @@ export const INITIAL_ORDERS: ProductOrder[] = [
 
     productId: 'prod-embroidery-patch',
     productTitle: 'Handmade Laguna Sampaguita Embroidery Craft',
-    productImage: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    productImage: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     productCategory: 'arts-crafts',
 
     unitPrice: 150,
@@ -296,19 +296,19 @@ export const INITIAL_ORDERS: ProductOrder[] = [
     customerId: 'user-nanay-lita',
     customerName: 'Nanay Lita (Lutong Bahay)',
     customerUsername: 'nanaylita',
-    customerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    customerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     customerIsSenior: true,
     customerPhone: '0918-555-7721',
 
     sellerId: 'user-maria-santos',
     sellerName: 'Maria Santos',
     sellerUsername: 'mariasantos',
-    sellerAvatarUrl: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    sellerAvatarUrl: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     sellerIsSenior: false,
 
     productId: 'prod-embroidery-patch',
     productTitle: 'Handmade Laguna Sampaguita Embroidery Craft',
-    productImage: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    productImage: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     productCategory: 'arts-crafts',
 
     unitPrice: 150,
@@ -442,7 +442,7 @@ export const INITIAL_BOOKINGS: ServiceBooking[] = [
     customerId: 'user-maria-santos',
     customerName: 'Maria Santos',
     customerUsername: 'mariasantos',
-    customerAvatarUrl: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    customerAvatarUrl: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     customerIsSenior: false,
     customerPhone: '0917-555-0192',
 
@@ -504,7 +504,7 @@ export const INITIAL_BOOKINGS: ServiceBooking[] = [
     serviceId: 'srv-culinary-kakanin',
     serviceTitle: 'Traditional Native Kakanin & Fiesta Catering Prep',
     serviceCategory: 'culinary',
-    serviceImage: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    serviceImage: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
 
     pricingType: 'fixed',
     rate: 1200,
@@ -566,7 +566,7 @@ export const INITIAL_BOOKINGS: ServiceBooking[] = [
     serviceId: 'srv-maria-tailor',
     serviceTitle: 'Patahian at Pag-aayos ng Kasuotan (Alterations & Tailoring)',
     serviceCategory: 'tailoring',
-    serviceImage: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    serviceImage: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
 
     pricingType: 'negotiable',
     rate: 350,
@@ -747,7 +747,7 @@ export const TransactionProvider: React.FC<{ children: React.ReactNode }> = ({ c
 
       productId: product.id,
       productTitle: product.title,
-      productImage: product.images[0] || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      productImage: product.images[0] || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       productCategory: product.category,
 
       unitPrice: product.price,
@@ -1078,7 +1078,7 @@ export const TransactionProvider: React.FC<{ children: React.ReactNode }> = ({ c
       serviceId: service.id,
       serviceTitle: service.title,
       serviceCategory: service.category,
-      serviceImage: service.portfolioImages?.[0] || service.providerAvatarUrl || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      serviceImage: service.portfolioImages?.[0] || service.providerAvatarUrl || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
 
       pricingType: service.pricingType,
       rate: service.rate,
@@ -1419,7 +1419,7 @@ export const TransactionProvider: React.FC<{ children: React.ReactNode }> = ({ c
       actorId: currentUser.id,
       actorName: 'KayaNatinTo Finance',
       actorUsername: 'finance',
-      actorAvatarUrl: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      actorAvatarUrl: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       actorIsSenior: false,
       type: 'order',
       title: `Naisumite ang Withdrawal Request #${referenceId}`,
@@ -1507,7 +1507,7 @@ export const TransactionProvider: React.FC<{ children: React.ReactNode }> = ({ c
       actorId: currentUser.id,
       actorName: 'KayaNatinTo Finance',
       actorUsername: 'finance',
-      actorAvatarUrl: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      actorAvatarUrl: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
       actorIsSenior: false,
       type: 'order',
       title: getNotificationTitle(),

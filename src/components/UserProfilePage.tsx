@@ -648,7 +648,7 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({
                     >
                       <div className="w-14 h-14 rounded-xl bg-slate-200 dark:bg-slate-700 overflow-hidden shrink-0">
                         <img
-                          src={item.images[0] || '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
+                          src={item.images[0] || './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png'}
                           alt={item.title}
                           className="w-full h-full object-cover"
                         />

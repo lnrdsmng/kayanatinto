@@ -18,7 +18,7 @@ const SAMPLE_SERVICE_PHOTOS = [
   },
   {
     label: 'Pananahi at Alterations',
-    url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
   },
   {
     label: 'Guro at Pagtuturo',
@@ -26,7 +26,7 @@ const SAMPLE_SERVICE_PHOTOS = [
   },
   {
     label: 'Musika at Gitara',
-    url: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    url: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
   },
   {
     label: 'Paglilinis ng Bahay',
@@ -146,7 +146,7 @@ export const CreateServiceModal: React.FC<CreateServiceModalProps> = ({
         providerId: currentUser.id,
         providerName: currentUser.fullName,
         providerUsername: currentUser.username,
-        providerAvatarUrl: currentUser.avatarUrl || '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+        providerAvatarUrl: currentUser.avatarUrl || './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
         providerIsSenior: !!currentUser.isSenior,
         providerAge: currentUser.age || 25,
         providerLocation: {

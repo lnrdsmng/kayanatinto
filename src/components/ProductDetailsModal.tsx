@@ -117,7 +117,7 @@ export const ProductDetailsModal: React.FC<ProductDetailsModalProps> = ({
   const activePhoto =
     product.images[activeImageIndex] ||
     product.images[0] ||
-    '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
+    './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
 
   const conditionLabels: Record<string, string> = {
     handcrafted: 'Gawang-Kamay (Handcrafted)',
@@ -142,7 +142,7 @@ export const ProductDetailsModal: React.FC<ProductDetailsModalProps> = ({
             className="w-full h-full object-cover"
             onError={(e) => {
               (e.target as HTMLImageElement).src =
-                '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
+                './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png';
             }}
           />
 

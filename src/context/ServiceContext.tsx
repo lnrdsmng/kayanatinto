@@ -25,7 +25,7 @@ const INITIAL_SERVICES: Service[] = [
     providerId: 'usr-003',
     providerName: 'Lola Mercy Ramos',
     providerUsername: 'lola_mercy',
-    providerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    providerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     providerIsSenior: true,
     providerAge: 64,
     providerLocation: {
@@ -43,7 +43,7 @@ const INITIAL_SERVICES: Service[] = [
     availability: 'Lunes hanggang Sabado, 8:00 AM - 5:00 PM',
     experienceYears: 42,
     portfolioImages: [
-      '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     ],
     serviceArea: 'Pila, Victoria, at Santa Cruz, Laguna',
     isAvailable: true,
@@ -57,7 +57,7 @@ const INITIAL_SERVICES: Service[] = [
     providerId: 'usr-002',
     providerName: 'Kuya Jayson Morales',
     providerUsername: 'jayson_music',
-    providerAvatarUrl: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    providerAvatarUrl: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     providerIsSenior: false,
     providerAge: 22,
     providerLocation: {
@@ -75,7 +75,7 @@ const INITIAL_SERVICES: Service[] = [
     availability: 'Martes, Huwebes, at Sabado, 1:00 PM - 7:00 PM',
     experienceYears: 5,
     portfolioImages: [
-      '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+      './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
     ],
     serviceArea: 'San Pablo City at mga karatig-bayan',
     isAvailable: true,
@@ -185,7 +185,7 @@ const INITIAL_SERVICES: Service[] = [
     providerId: 'usr-001',
     providerName: 'Nanay Lita Ramos',
     providerUsername: 'nanaylita',
-    providerAvatarUrl: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    providerAvatarUrl: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     providerIsSenior: true,
     providerAge: 68,
     providerLocation: {
@@ -203,7 +203,7 @@ const INITIAL_SERVICES: Service[] = [
     availability: 'Sabado at Linggo (Reservations 3 days ahead)',
     experienceYears: 45,
     portfolioImages: [
-      '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+      './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
     ],
     serviceArea: 'Majayjay, Liliw, Magdalena, at Lucban',
     isAvailable: true,

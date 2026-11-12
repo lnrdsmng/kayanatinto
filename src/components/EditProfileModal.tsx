@@ -26,9 +26,9 @@ interface EditProfileModalProps {
 }
 
 const AVATAR_OPTIONS = [
-  { label: 'Nanay Cook', url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png' },
-  { label: 'Youth Musician', url: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png' },
-  { label: 'Elder Seamstress', url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png' },
+  { label: 'Nanay Cook', url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png' },
+  { label: 'Youth Musician', url: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png' },
+  { label: 'Elder Seamstress', url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png' },
   { label: 'Artisan Potter', url: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80' },
 ];
 

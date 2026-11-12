@@ -26,22 +26,22 @@ const SAMPLE_IMAGE_PRESETS = [
   {
     id: 'lumpia-food',
     label: 'Lumpia / Ulam',
-    url: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    url: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
   },
   {
     id: 'pottery-clay',
     label: 'Paso / Pottery',
-    url: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    url: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
   },
   {
     id: 'pastries-bakes',
     label: 'Pastries / Bakes',
-    url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
   },
   {
     id: 'craft-wood',
     label: 'Gawang-Kamay',
-    url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
   },
 ];
 

@@ -43,11 +43,11 @@ interface InboxDrawerProps {
 const SAMPLE_IMAGE_ATTACHMENTS = [
   {
     label: 'Halimbawang Larawan ng Order',
-    url: '/assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
+    url: './assets/aistudio/file_00000000f26082078ed9ec1d1d45c30d_b43fd100.png',
   },
   {
     label: 'Halimbawang Detalye ng Likha',
-    url: '/assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
+    url: './assets/aistudio/file_000000004b488207b1abfb715d178615_88e42f5b.png',
   },
   {
     label: 'Resibo o Palatandaan',
